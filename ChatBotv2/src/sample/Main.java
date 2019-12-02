@@ -5,22 +5,28 @@ import java.util.Scanner;
 //@author arianneghislainerull
 
 public class Main {
+    // main method
     public static void main(String[] args) throws FileNotFoundException {
+        // print to the user
         System.out.println("\f");
         //scanner to get the input from the user
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello World, let us chat with each other! \n What is your name?");
         System.out.println("Print here: ");
+        // always define the type of the variable
         String n = sc.nextLine();
         System.out.println("Welcome, " + n + "! How are you? \n Press a number if you have a " +
                 "question.");
 
         //while loop
+        //loop then the condition
         while(true){
             System.out.println("Print here: ");
             String s = sc.nextLine();
             s = s.toUpperCase();
 
+            //if statement (if then, condition)
+            //index is used to search/look up the key words in quotation marks
             if (s.indexOf("FINE") >= 0){
                 System.out.println("That's fantastic, " + n + "!");
             }else if (s.indexOf("HI") >= 0){
@@ -31,6 +37,7 @@ public class Main {
                 System.out.println("How may I help you?");
                 System.out.println("Print here: ");
                 String q = sc.nextLine();
+                // this turns the word received into capital letters/uppercase letters
                 q = s.toUpperCase();
 
                 if (q.indexOf("EMAIL") >=0){
