@@ -27,37 +27,11 @@ public class Blahblah {
             String s = sc.nextLine();
             s = s.toUpperCase();
 
-            //if statement (if then, condition)
-            //index is used to search/look up the key words in quotation marks
-            if (s.indexOf("FINE") >= 0){
-                System.out.println("That's fantastic, " + n + "!");
-            }else if (s.indexOf("HI") >= 0){
-                System.out.println("Hello, " + n + " !");
-            }else if (s.indexOf("NOT GOOD") >= 0){
-                System.out.println("Too bad, I hope you feel better soon");
-            }else{
-                System.out.println("How may I help you?");
-                System.out.println("Print here: ");
-                String q = sc.nextLine();
-                // this turns the word received into capital letters/uppercase letters
-                q = s.toUpperCase();
-
-                if (q.indexOf("EMAIL") >=0){
-                    System.out.println("To contact TEAM Paradigm Shift 2198, please send your " +
-                            "email to: brian.wong@tdsb.on.ca");
-                } else if(q.indexOf("SCHOOL") >=0){
-                    System.out.println("TEAM Paradigm Shift 2198 affiliated with LAmoreaux CI!");
-                } else{
-                    System.out.println("Sorry, I need to update my knowledge base.");
-                    System.out.println("Please retype the question. Sorry for the inconvenience, " +
-                            "we will be updating our knowledge base at the latest.");
-                    //retyping the question to store it on a file
-                    File file = new File("hello.txt");
-                    String r = sc.nextLine();
-                    r = s.toUpperCase();
-                    System.out.println(r);
-                    PrintWriter output = new PrintWriter( file );
-                    output.close();
+            /*
+            Instructions:
+            Make a five question quiz using the principles you learned today 
+            Hint (use else/if statements, print, indexOf)
+            */
 
                 }
             }
