@@ -1,3 +1,5 @@
+// first of all, hi person who is reading this
+
 package sample;
 import java.io.*;
 import java.util.Scanner;
