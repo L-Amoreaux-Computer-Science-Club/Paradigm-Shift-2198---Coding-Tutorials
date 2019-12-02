@@ -31,6 +31,7 @@ public class Blahblah {
             Instructions:
             Make a five question quiz using the principles you learned today 
             Hint (use else/if statements, print, indexOf)
+            Remember to add semi colons!
             */
 
                 }
